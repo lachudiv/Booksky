@@ -11,11 +11,13 @@
 🔍 Search for books dynamically using the search bar.
 
 
+
 2️⃣ User Interaction
 
 🎨 Interactive and visually appealing book cards.
 🏗️ Responsive design for a seamless experience on all devices.
 📚 Hover effects to highlight books.
+
 
 
 3️⃣ Dark Mode Feature
@@ -24,11 +26,13 @@
 🌓 Automatically saves user preference using localStorage.
 
 
+
 4️⃣ Popup System for Book Addition
 
 🖊️ Click the ➕ button to open a popup form.
 ✅ Submit book details to add a new book to the collection.
 ❌ Cancel the process if needed.
+
 
 
 5️⃣ Data Persistence
