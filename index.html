@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1 class="logo">Booksky</h1>
+        <input type="text" id="search-bar" placeholder="Search for books..." oninput="filterBooks()" />
+        <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+    </div>
+    
+    <div class="container" id="book-list">
+        <!-- Book cards will be dynamically added here -->
+    </div>
+    
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add a New Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title-input">
+            <input type="text" placeholder="Author Name" id="book-author-input">
+            <textarea placeholder="Short Description" id="book-description-input"></textarea>
+            <button type="button" id="add-book">Add Book</button>
+            <button type="button" id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+    
+    <button class="add-button" id="add-pop-button">+</button>
+    
+    <script src="script.js"></script>
+</body>
+</html>
